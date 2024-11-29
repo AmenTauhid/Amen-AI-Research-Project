@@ -1,3 +1,5 @@
 # AI-Research-Project
 
 This project employs machine learning techniques and a dataset containing hourly bike rental information to predict bike-sharing demand. The dataset includes features such as temperature, humidity, and time-based variables. An ExtraTreesRegressor model was trained to perform this task and achieved a test performance of R^2 = 0.9331, indicating strong predictive power. The correlation matrix revealed that temperature, apparent temperature, and specific hours of the day (e.g., 17:00, 18:00) are critical predictors. The model’s residuals exhibit minimal bias, confirming robust generalization across training and test data. Feature importance analysis further identified “working day,” “hour of the day,” and temperature-related variables as the most influential features. With an average mean absolute error (MAE) of 28.03 and root mean square error (RMSE) of 47.28, this approach demonstrates significant potential in optimizing resource allocation and operational planning for urban bike-sharing systems.
+
+**Youtube Link**: https://youtu.be/Sd2VeoUs1QE
